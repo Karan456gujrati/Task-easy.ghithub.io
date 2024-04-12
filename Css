@@ -1,0 +1,182 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Menu Styles */
+.menu {
+  background-color: #ffff00;
+  padding: 10px 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Header Styles */
+.header {
+  background-color: #ffff00;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.header h1 {
+  color: #ffffff;
+}
+
+/* Hero Section Styles */
+.hero {
+  background: linear-gradient(to right, #ffffff, #ffff00);
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  color: #000000;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffff00;
+  color: #000000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #cccc00;
+}
+
+/* Course Styles */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.course-item {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.course-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.course-item h3 {
+  color: #000000;
+}
+
+.label {
+  background-color: #ffff00;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 3px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Education Certificate Styles */
+.education-certificate {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.education-certificate img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Inquiry Form Styles */
+.inquiry-form {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.inquiry-form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inquiry-form label {
+  margin-right: 10px;
+}
+
+.inquiry-form input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+}
+
+.inquiry-form button {
+  padding: 10px 20px;
+  background-color: #ffff00;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inquiry-form button:hover {
+  background-color: #cccc00;
+}
+
+/* About Us Section */
+.about-us {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Contact Us Section */
+.contact-us {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Footer Section Styles */
+.footer {
+  background-color: #ffff00;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  border-radius: 50%;
+}
